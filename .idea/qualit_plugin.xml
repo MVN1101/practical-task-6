@@ -17,12 +17,12 @@
         <Setting>
           <option name="name" value="applicationUrl" />
           <option name="type" value="text" />
-          <option name="value" value="http://localhost:8080/" />
+          <option name="value" value="http://localhost:8080" />
         </Setting>
         <Setting>
           <option name="name" value="driverType" />
           <option name="type" value="list" />
-          <option name="value" value="EDGE" />
+          <option name="value" value="CHROME" />
         </Setting>
         <Setting>
           <option name="name" value="maximizeWindow" />
@@ -42,7 +42,7 @@
         <Setting>
           <option name="name" value="closeDriverAfterTest" />
           <option name="type" value="checkbox" />
-          <option name="value" value="false" />
+          <option name="value" value="true" />
         </Setting>
         <Setting>
           <option name="name" value="connectToRunningApp" />
@@ -52,7 +52,7 @@
         <Setting>
           <option name="name" value="screenshotConfiguration" />
           <option name="type" value="list" />
-          <option name="value" value="FOR_FAILURES" />
+          <option name="value" value="DISABLED" />
         </Setting>
         <Setting>
           <option name="name" value="advancedScreenshotMethod" />
