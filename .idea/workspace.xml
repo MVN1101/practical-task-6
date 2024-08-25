@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f16583-26e2-4235-a7ab-f5df363dc214" name="Changes" comment="добавдлены элемента: Добавление товара">
-      <change beforePath="$PROJECT_DIR$/.idea/qualit_plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qualit_plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/repositories/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/repositories/templates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/repositories/web-elements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/repositories/web-elements.xml" afterDir="false" />
+    <list default="true" id="37f16583-26e2-4235-a7ab-f5df363dc214" name="Changes" comment="Создан автотест &quot;Добавление товара через WebSite&quot;">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +21,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vikto/Downloads/web-example-main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/vikto/IdeaProjects/practical-task-3",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn dependency:sources &quot;-DincludeGroupIds=ru.ibsqa.chameleon&quot;" />
@@ -260,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724581468127</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Создан автотест &quot;Добавление товара через WebSite&quot;">
+      <option name="closed" value="true" />
+      <created>1724586673536</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724586673536</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +284,7 @@
     <MESSAGE value="подключен Chameleon" />
     <MESSAGE value="добавдлены элементы: Главная страница, Песочница" />
     <MESSAGE value="добавдлены элемента: Добавление товара" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавдлены элемента: Добавление товара" />
+    <MESSAGE value="Создан автотест &quot;Добавление товара через WebSite&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан автотест &quot;Добавление товара через WebSite&quot;" />
   </component>
 </project>
