@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DbGears xmlns="http://chameleon.ibs-qa.ru/schema/db">
+    <Connection name="H2" url=" jdbc:h2:tcp://localhost:9092/mem:testdb;user=#{user};password=#{password}" autoCommit="true" driver="org.h2.Driver">
+        <Params>
+            <FieldString name="Пользователь" locator="user"/>
+            <FieldString name="Пароль" locator="password"/>
+        </Params>
+    </Connection>
+</DbGears>

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f16583-26e2-4235-a7ab-f5df363dc214" name="Changes" comment="Создан автотест &quot;Добавление товара через WebSite&quot;">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="37f16583-26e2-4235-a7ab-f5df363dc214" name="Changes" comment="Настройка скриншотов">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/БД списка товаров.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/repositories/db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test2-db" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2l6BaWrfgIwF5L6ZSG93P2N7imI" />
@@ -71,6 +78,28 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/БД списка товаров.feature" />
+      <option name="GLUE" value="org.ibstraining ru.ibsqa.chameleon" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="practical-task-6" />
+      <option name="PROGRAM_PARAMETERS" value="--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="run_configuration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/БД списка товаров.feature" />
+      <option name="GLUE" value="org.ibstraining ru.ibsqa.chameleon" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="practical-task-6" />
+      <option name="PROGRAM_PARAMETERS" value="--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="MakeProject" enabled="false" />
       </method>
@@ -211,8 +240,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Feature: Список товаров" />
         <item itemvalue="Cucumber Java.Scenario: Проверка добавления товара через WebSite" />
+        <item itemvalue="Cucumber Java.Feature: Список товаров" />
+        <item itemvalue="Cucumber Java.Feature: Список товаров" />
+        <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724586673536</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Настройка скриншотов">
+      <option name="closed" value="true" />
+      <created>1724587399979</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724587399979</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +324,7 @@
     <MESSAGE value="добавдлены элементы: Главная страница, Песочница" />
     <MESSAGE value="добавдлены элемента: Добавление товара" />
     <MESSAGE value="Создан автотест &quot;Добавление товара через WebSite&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан автотест &quot;Добавление товара через WebSite&quot;" />
+    <MESSAGE value="Настройка скриншотов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настройка скриншотов" />
   </component>
 </project>
