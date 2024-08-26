@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f16583-26e2-4235-a7ab-f5df363dc214" name="Changes" comment="Настройка скриншотов">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/БД списка товаров.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/repositories/db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qualit_plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qualit_plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/БД списка товаров.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/БД списка товаров.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/repositories/db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/repositories/db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/repositories/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/repositories/templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/repositories/web-elements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/repositories/web-elements.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/vikto/IdeaProjects/practical-task-3",
+    "last_opened_file_path": "C:/Users/vikto/IdeaProjects/practical-task-6",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -42,7 +47,7 @@
       <command value="mvn dependency:sources &quot;-DincludeGroupIds=ru.ibsqa.chameleon&quot;" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber Java.run_configuration">
     <configuration name="Feature: Список товаров" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" />
@@ -239,9 +244,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Список товаров" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Проверка добавления товара через WebSite" />
-        <item itemvalue="Cucumber Java.Feature: Список товаров" />
         <item itemvalue="Cucumber Java.Feature: Список товаров" />
         <item itemvalue="JUnit.TestRunner" />
       </list>
