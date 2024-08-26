@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pages xmlns="http://chameleon.ibs-qa.ru/schema/web-elements">
-    <Page name="Главная страница" locator="http://localhost:8080">
+    <Page name="Главная страница">
         <Link name="Песочница"/>
         <Link name="Товары"/>
         <Link name="Сброс данных"/>

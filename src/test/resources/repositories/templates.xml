@@ -5,5 +5,4 @@
     <Template name="ComboBox" locator="//label[normalize-space()='%1$s']/following-sibling::select"/>
     <Template name="CheckBox" locator="//label[normalize-space()='%1$s']/preceding-sibling::input[@type='checkbox']"/>
     <Template name="Link" locator="//a[normalize-space()='%1$s']"/>
-    <Template/>
 </Templates>
