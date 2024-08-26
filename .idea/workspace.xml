@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f16583-26e2-4235-a7ab-f5df363dc214" name="Changes" comment="Создан автотест &quot;Добавление товара через WebSite&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/qualit_plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qualit_plugin.xml" afterDir="false" />
+    <list default="true" id="37f16583-26e2-4235-a7ab-f5df363dc214" name="Changes" comment="Стабильная версия 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/repositories/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/repositories/templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/repositories/web-elements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/repositories/web-elements.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724586673536</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Стабильная версия 1.0">
+      <option name="closed" value="true" />
+      <created>1724697615768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724697615768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,6 +322,7 @@
     <MESSAGE value="добавдлены элементы: Главная страница, Песочница" />
     <MESSAGE value="добавдлены элемента: Добавление товара" />
     <MESSAGE value="Создан автотест &quot;Добавление товара через WebSite&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан автотест &quot;Добавление товара через WebSite&quot;" />
+    <MESSAGE value="Стабильная версия 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Стабильная версия 1.0" />
   </component>
 </project>
