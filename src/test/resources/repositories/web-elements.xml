@@ -15,7 +15,7 @@
         </Collection>
     </Page>
     <Page name="Добавление товара">
-        <TextInput name="Наименование" locator="//label[normalize-space()='Наименование']/following-sibling::Input"/>
+        <TextInput name="Наименование"/>
         <ComboBox name="Тип"/>
         <CheckBox name="Экзотический"/>
         <Button name="Сохранить"/>

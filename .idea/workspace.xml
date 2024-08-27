@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f16583-26e2-4235-a7ab-f5df363dc214" name="Changes" comment="Стабильная версия 1.0">
+    <list default="true" id="37f16583-26e2-4235-a7ab-f5df363dc214" name="Changes" comment="Добавление параметризированного теста">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/БД списка товаров.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/БД списка товаров.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/repositories/web-elements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/repositories/web-elements.xml" afterDir="false" />
     </list>
@@ -21,7 +22,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2l6BaWrfgIwF5L6ZSG93P2N7imI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,7 +46,7 @@
       <command value="mvn dependency:sources &quot;-DincludeGroupIds=ru.ibsqa.chameleon&quot;" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber Java.Feature: Список товаров">
     <configuration name="Feature: Список товаров" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Список товаров.feature" />
@@ -237,8 +240,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: Список товаров" />
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Проверка добавления товара через WebSite" />
         <item itemvalue="Cucumber Java.Feature: БД списка товаров" />
         <item itemvalue="JUnit.TestRunner" />
@@ -302,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724697615768</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавление параметризированного теста">
+      <option name="closed" value="true" />
+      <created>1724700086750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724700086750</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +334,7 @@
     <MESSAGE value="добавдлены элемента: Добавление товара" />
     <MESSAGE value="Создан автотест &quot;Добавление товара через WebSite&quot;" />
     <MESSAGE value="Стабильная версия 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Стабильная версия 1.0" />
+    <MESSAGE value="Добавление параметризированного теста" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление параметризированного теста" />
   </component>
 </project>
